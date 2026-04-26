@@ -1,16 +1,11 @@
 // ==================== CONFIGURAÇÃO GLOBAL ====================
 
 const SEIRA_CONFIG = {
-    // URLs das APIs
-    API_URLS: {
-        pokemon: 'https://raw.githubusercontent.com/gbavn/seira-database/main/database/pokemon.json',
-        moves: 'https://raw.githubusercontent.com/gbavn/seira-database/main/database/moves.json',
-        abilities: 'https://raw.githubusercontent.com/gbavn/seira-database/main/database/abilities.json',
-        items: 'https://raw.githubusercontent.com/gbavn/seira-database/main/database/items.json',
-        maps: 'https://raw.githubusercontent.com/gbavn/seira-database/main/database/maps.json',
-        objects: 'https://raw.githubusercontent.com/gbavn/seira-database/main/database/objects.json',
-        quests: 'https://raw.githubusercontent.com/gbavn/seira-database/main/database/quests.json',
-        perks: 'https://raw.githubusercontent.com/gbavn/seira-database/main/database/perks.json'
+    // Supabase
+    SUPABASE: {
+        url: 'https://mbxvigdckqosjnwuwdej.supabase.co/rest/v1',
+        key: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1ieHZpZ2Rja3Fvc2pud3V3ZGVqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMxNjU3MDAsImV4cCI6MjA4ODc0MTcwMH0.DWw3SXrXJmmPaSOt7-4_YKRK9SSMp2ryYbjuJdbvpdU',
+        schema: 'rpg'
     },
     
     // Paginação
